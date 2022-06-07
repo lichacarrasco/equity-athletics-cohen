@@ -9,12 +9,13 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 options(scipen = 999)
+library(webshot)
 library(tidyverse)
 library(plotly)
 library(treemapify)
 library(reactable)
 library(stringi)
-library(cowplot)
+library(knitr)
 ```
 
 El deporte universitario en Estados Unidos resulta un mercado de alto atractivo para el consumo masivo, así como una fuente de ingreso para las universidades tanto públicas como privadas de ese país. Si bien en la mayoría de los casos no constituyen partes centrales de sus ingresos y presupuestos, sí son un aporte considerable en términos económicos y, sobre todo, reputacionales. 
