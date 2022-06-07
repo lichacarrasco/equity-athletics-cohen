@@ -4,3 +4,4 @@ Análisis del dataset disponibilizado para el evento [Tidy Tuesday](https://bit.
 
 En `/código`, se encuentra el archivo markdown reproducible. Todos los datos utilizados se obtienen desde Github.
 En `/salidas`, se encuentran dos archivos para facililtar la lectura del análisis. Uno en formato .html y otro en formato .md. 
+El archivo .html cuenta con visualizaciones interactivas, que no se encuentran disponibles en la versión intermedia .md.
